@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(111, 163, 246);
+    background-color: rgb(41, 26, 19);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(7, 49, 98);
+    background-color: rgb(53, 33, 24);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -28,7 +28,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(94, 138, 209);
+    background-color: rgb(41, 26, 19);
     padding: 6px;
     margin: 40px;
     border-radius: 40px;
@@ -38,17 +38,17 @@ body {
 .noticia {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-    background-color: rgb(72, 155, 243);
-    border: 4px solid rgb(255, 255, 255);
+    background-color: rgb(83, 62, 51);
+    border: 4px solid rgb(59, 38, 24);
 }
 
 .img_noticia {
     width: 300px;
-    height: 200px;
+    height: 300px;
 }
 
 footer {
-    background-color: rgb(7, 49, 98);
+    background-color: rgb(54, 36, 28);
     padding: 10px;
     text-align: center;
     color: white;
@@ -58,19 +58,19 @@ footer {
 .barra-sticky {
     position: sticky;
     top: 0px;
-    background-color: rgb(255, 221, 0);
-    color: rgb(7, 49, 98);
+    background-color: rgb(97, 52, 31);
+    color: white;
     padding: 12px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 4px solid rgb(7, 49, 98); 
+    border-bottom: 4px solid rgb(48, 32, 17); 
 }
 
 .posicao {
     margin: 40px;
     padding: 20px;
     border-radius: 40px;
-    background-color: rgb(72, 155, 243);
+    background-color: rgb(82, 54, 41);
     color: white;
 }
 
@@ -78,8 +78,8 @@ footer {
     width: 420px;
     margin: 20px auto;
     padding: 15px;
-    border: 4px solid white;
-    background-color: rgb(72, 155, 243);
+    border: 4px solid rgb(39, 25, 16);
+    background-color: rgb(83, 62, 51);
     color: white
 }
 
@@ -89,35 +89,16 @@ footer {
     left: 40px;
 }
 
-.pos-relative{
-    position: relative;
-    top: 20px;
-    left: 30px;
-    background-color: rgb(255, 221, 0);
-    color: rgb(7, 49, 98);
+
+
+.row{
+    display: flex;
+    gap: 10px;
 }
 
-.pai{
-    width: 520px;
-    height: 160px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 20px;
-    border: 4px solid white;
-    background-color: rgb(72, 155, 243);
-    position: relative;
-    color: white;
-    font-weight: bold;
-
-}
-
-.filho{
-    position: absolute;
-    right: 15px;
-    bottom: 15px;
-    padding: 8px 12px;
-    background-color: rgb(255, 221, 0) ;
-    color: rgb(7, 49, 98);
-    border: 3px solid rgb(7, 49, 98);
-    border-radius: 20px;
+.imagem-fixada{
+    position: fixed;
+    bottom: 10px;
+    right: 10;
+    width: 200px;
 }

@@ -1,80 +1,125 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Site do Grêmio</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Site dos livros favoritos da Nicole</title>
+  </head>
+  <body>
     <header>
+      <div id="navbar">
+        <a
+          href="https://www.amazon.com.br/?&tag=hydrbrabk-20&ref=pd_sl_7rwd1q78df_e&adgrpid=155790195778&hvpone=&hvptwo=&hvadid=677606588104&hvpos=&hvnetw=g&hvrand=17462134136324757110&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9102332&hvtargid=kwd-10573980&hydadcr=26346_11691057&gad_source=1"
+        >
+          <img id="icon" src="icone livro.png" alt="Ícone de um livro" />
+        </a>
 
-        <div id="navbar">
-            
-            <a href="https://gremio.net/home"> 
-                <img id="icon" src="assets/icon.svg" alt="Ícone do Grêmio">
-            </a>
+        <h2>Site dos livros favoritos da Nicole</h2>
 
-            <h2> Site de Notícias do Grêmio</h2>
-
-            <ul id="links">
-                <li>Arquivos</li>
-                <li>Clube</li>
-                <li>Sair</li>
-            </ul>
-        </div>
-
+        <ul id="links">
+          <li>Autores</li>
+          <li>Livros</li>
+          <li>Sair</li>
+        </ul>
+      </div>
     </header>
     <main>
+      <div class="barra-sticky">Top 5 melhores livros</div>
+      <section class="noticias">
+        <div class="noticia">
+          <img
+            class="img_noticia"
+            src="olho por olho.jpg"
+            alt="Capa do livro olho por olho"
+          />
+          <h3>1° livro da triologia da Jenny Han</h3>
+          <p>Top um dos livros.</p>
+        </div>
 
-        <div class="barra-sticky">Exemplo de Sticky Bar - barra que gruda</div>
-        <section class="noticias">
+        <div class="noticia">
+          <img
+            class="img_noticia"
+            src="dente por dente.jpg"
+            alt="CApa do livro dente por dente"
+          />
+          <h3>2° livro da triologia da Jenny Han</h3>
+          <p>Aqui que a história muda tudo!</p>
+        </div>
 
-            <div class="noticia">
-                <img class="img_noticia" src="assets/n1.jpg" alt="Senhor Representante do Grêmio">
-                <h3>Grêmio sobe para a Série A</h3>
-                <p>Um milagre!</p>
+        <div class="noticia">
+          <img
+            class="img_noticia"
+            src="fogo contra fogo.jpg"
+            alt="Fogo contra fogo"
+          />
+          <h3>3° livro da triologia da Jenny Han</h3>
+          <p>Tudo que você imaginava tem uma reviravolta.</p>
+        </div>
+
+        <div class="noticia">
+          <img
+            class="img_noticia"
+            src="voce nao esta sozinha.jpeg"
+            alt="voce
+                e não esta sozinha"
+          />
+          <h3>Depois da triologia esse vence!</h3>
+          <p>Um livro que te prende só pelos mistérios.</p>
+        </div>
+
+        <div class="noticia">
+          <img
+            class="img_noticia"
+            src="o lado feio do amor.jpg"
+            alt="O lado feio do amor"
+          />
+          <h3>Por fim o melhor livro.</h3>
+          <p>
+            Tudo que a Nicole mais gosta está neste livro: romance e mistério!
+          </p>
+        </div>
+      </section>
+
+      <section class="posicao">
+        <div>
+          <h2>Os melhores autores de acordo com a Nii:</h2>
+        </div>
+
+        <div class="row">
+          <div class="pos-box pos-static">
+            A Jenny HAn escreve a triologia, uma autora muito famosa
+            norte-americana que escreve livros infantis e para adolescentes.
+            <div class="posicao">
+              <img
+                class="img_noticia"
+                src="jenny han.webp"
+                alt="Imahem da Jenny Han"
+              />
             </div>
-            
-            <div class="noticia">
-                <img class="img_noticia" src="assets/n2.jpg" alt="Senhor Representante do Grêmio">
-                <h3>Grêmio cai para a Série B</h3>
-                <p>Não estou suportando mais!</p>
             </div>
 
-        </section>
-
-        <section class="posicao">
-            <h2>Position: static</h2>
-            <div class="pos-box pos-static">
-                Sou uma static padrão. Valores de top e left não mudam minha posição.
+        <div class="row">
+          <div class="pos-box pos-static">
+            A autora Collen Hoover tem livros muitos famosos que já até se tornaram filmes. Seu maior sucesso é o livro "Assim que acaba", com tramas intensos e relacionamento tóxico (o próximo livro que quero ler).
+            <div class="posicao">
+              <img
+                class="img_noticia"
+                src="collen hoover.webp"
+                alt="Imagem da Collen Hoover"
+              />
             </div>
-        </section>
-
-        <section class="posicao">
-            <h2>Position: Relative</h2>
-            <div class="pos-box">Caixa normal</div>
-
-            <div class="pos-box pos-relative">
-                Caixa mormal: ela se move, mas continua tendo espaço reservado.
             </div>
+        </div>
+    
 
-            <div class="pos-box">Caixa normal</div>
-
-        </section>
-
-        <section class="posicao">
-            <h2>Position: absolute</h2>
-
-            <div class="pai">
-                Pai (relativo)
-                <div class="filho">Filho</div>
-            </div>
-            <p class="pos-texto">O filho não empurra nada, ele fica por cima, colado no pai.</p>
-        </section>
-
+        
+      </section>
     </main>
+
+    <img class="imagem-fixada" src="book.png" alt="animação de um livro">
+    
     <footer>
-        <p> Todos os direitos reservados ao professor Ícaro. </p>
+      <p>Todos os direitos reservados a Nicole.</p>
     </footer>
-</body>
+  </body>
 </html>
